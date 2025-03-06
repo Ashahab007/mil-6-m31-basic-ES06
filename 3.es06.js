@@ -47,3 +47,11 @@ bike.move();
 
 const volvoBus = new Bus("Volvo", 6000000, "Dhaka to cox");
 volvoBus.stoppage();
+
+const greenline = new Bus("Green Line", 8000000);
+greenline.move(); //Ami chola chol kori //inherit the move method from Class Bus
+console.log(greenline);
+
+/* Note:
+Prototypical inheritance: It refers to ability to access object properties from another object. We use javascript prototype to add properties and method to an existing object constructor.
+*/
